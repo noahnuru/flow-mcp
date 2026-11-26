@@ -1,0 +1,32 @@
+{
+  "name": "flow-mcp",
+  "version": "1.0.1",
+  "description": "Official Agent-First MCP Server for FLOW / FlowSpace: run Flow Audits, generate 1-Page Decision Cards, and verify binary escalation gates with SHA-256 governance receipts.",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "flow-mcp": "./index.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "ai-agents",
+    "flow",
+    "flowos",
+    "flowspace",
+    "decision-card",
+    "agent-governance"
+  ],
+  "homepage": "https://www.noahnuru.com/audit",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/noahnuru/flow-mcp.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "node test-pilot-acceptance.mjs"
+  }
+}
